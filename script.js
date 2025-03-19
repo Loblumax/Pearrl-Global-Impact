@@ -2,3 +2,6 @@ function toggleMenu() {
     const nav = document.getElementById('nav-menu');
     nav.classList.toggle('nav-active');
 }
+function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("active");
+}
