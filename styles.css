@@ -213,12 +213,38 @@ nav a {
     font-size: 1.3em;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #ff6600; /* Highlight title with orange */
+    color: #4121fa; /* Highlight title with orange */
 }
 
 .objective p {
     font-size: 1em;
     color: #555;
+}
+/* Donate Page - Construction Banner */
+#construction-banner {
+    background: url('/images/barricade0.jpeg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.banner-overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner-overlay p {
+    font-size: 1.2em;
 }
 
 footer {
